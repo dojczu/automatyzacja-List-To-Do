@@ -1,0 +1,111 @@
+{
+  "id": "52f7c8db-fb38-4918-b1d2-0653f87dedbe",
+  "version": "2.0",
+  "name": "todo",
+  "url": "https://todolist.james.am",
+  "tests": [{
+    "id": "cae939d2-51a0-4975-b6b5-faf97a8b6c03",
+    "name": "test1",
+    "commands": [{
+      "id": "8791f504-5512-4b33-b8e0-2af7376d1576",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5eae10a-9a61-4133-ba3f-3d5d8ed5f7d6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "973x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9e74fa9-f5bb-4309-b5e7-b056462a2099",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clear-completed",
+      "targets": [
+        ["css=.clear-completed", "css:finder"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Clear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fd203d0-5127-42b2-a168-710a7f20194f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(1) > .view > .toggle",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > .view > .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[2]", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ab38c7b-619f-4d9a-9593-8c6cc8c87a47",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(3) .toggle",
+      "targets": [
+        ["css=.ng-scope:nth-child(3) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[4]", "xpath:attributes"],
+        ["xpath=//li[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4aa81ffb-641f-40d4-976c-d8dcec97fd3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clear-completed",
+      "targets": [
+        ["css=.clear-completed", "css:finder"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Clear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "62fffb98-beb7-4106-a9fc-d282e4fcac45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(3) .destroy",
+      "targets": [
+        ["css=.ng-scope:nth-child(3) .destroy", "css:finder"],
+        ["xpath=//li[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a97309b0-e5fb-4ddd-86c0-008823211b9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main > label",
+      "targets": [
+        ["css=.main > label", "css:finder"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Mark all as complete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb5bd1ba-6b5b-4ff2-91ba-37a4f8e1d1aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clear-completed",
+      "targets": [
+        ["css=.clear-completed", "css:finder"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Clear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "25d8b606-e8dd-429b-bfc3-ac7202cd2afd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cae939d2-51a0-4975-b6b5-faf97a8b6c03"]
+  }],
+  "urls": ["https://todolist.james.am/"],
+  "plugins": []
+}
